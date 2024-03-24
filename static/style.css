@@ -1,0 +1,91 @@
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;        }
+  
+  
+  .navbar {
+    background-color: black;
+  
+  }
+  
+  .nav-link {
+    color: white;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    transform: translateY(-5px);
+  }
+  
+  canvas {
+    max-width: 100%;
+  }
+  
+  #title {
+    color: white;
+    padding-top: 45px; 
+    padding-left: 40px;
+  }
+  .text-About{
+     margin-top: 5%;
+     font-size: 17px;
+     letter-spacing: 1px;
+     list-style-type: none;
+     padding: 23px;
+  width: 100%;
+  overflow: hidden;
+  background-color:#fcfbef;
+    }
+  
+    .text-About h1{
+      text-align: center;
+      font-size: 50px;
+      color:#373209;
+    }
+  
+    .text-About p{
+      color: #373209;
+      font-size: 18px;
+      text-align: center;
+  
+    }
+    .what-we{
+      font-size: 22px;
+      text-align: center;
+      color: #373209;
+    }
+    
+    .container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      border: none;
+    }
+    
+    .box {
+      width: 260px;
+      height: 180px;
+      background-color: rgb(255, 255, 248);
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+      margin: 10px ; /* المسافة بين المربعات*/
+      overflow: hidden;
+    }
+    
+    
+    .box img {
+      width: 30px;
+      height: 30px;
+      border-radius: 20%;
+      margin-bottom: 12px;
+    }
+  
+    .box p{
+      margin-bottom: 25px;
+      color: #686440;
+      font-size: 15px;
+      
+    }
+    
